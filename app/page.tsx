@@ -20,7 +20,7 @@ const Home: React.FC<HomeT> = async ({
     model: model || "",
     manufacturer: manufacturer || "",
     fuel: fuel || "",
-    year: year || "2022",
+    year: year || 2022,
   });
 
   return (
